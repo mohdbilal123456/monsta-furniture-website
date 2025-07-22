@@ -41,15 +41,18 @@ export default function Header() {
         )
       }
       
-      <div className="sticky top-0 bg-yellow-300 z-50   xs:w-[37vw] md:w-[20vw] sm:w-[20vw]  lg:w-[10vw]">
-            <img src={logo} alt="" className='  xs:w-[37vw] md:w-[20vw] sm:w-[20vw] lg:w-[10vw]' />
-      </div>
-
-      <div className='w-full  md:flex  md:justify-center xs:flex xs:justify-between sm:p-5 border-b-1  border-gray-200' >
-        <div className='md:w-[75%] xs:w-[100%] xs:p-3  flex justify-between  items-center xs:py-3  lg:flex lg:justify-between  lg:gap-0 '>
+      {/* <div className="w-full   flex justify-around border-b-1  border-gray-200 "> */}
+           
+              <div className="sticky top-10 left-24  bg-white z-50 border border-black  flex justify-center items-center   xs:w-[37vw] md:w-[20vw] sm:w-[20vw]  lg:w-[10vw]">
+                <img src={logo} alt="" className='  xs:w-[37vw] md:w-[20vw] sm:w-[20vw] lg:w-[10vw]' />
+              </div>
+     
+      <div className="w-full flex justify-end">
+      <div className='w-[60%] border border-black   md:flex  md:justify-center  xs:flex xs:justify-between sm:p-5 ' >
+        <div className=' md:w-[50%] border border-black xs:w-[100%] xs:p-3  flex justify-between  items-center xs:py-3   lg:flex lg:justify-end  lg:gap-0 '>
           
 
-          <div className='xs:flex md:flex md:justify-center xs:ml-2.5 flex justify-center items-center  gap-8 '>
+          <div className='xs:flex md:flex md:justify-between xs:ml-2.5 flex justify-center items-center  gap-5 '>
 
             <form className=' hidden lg:w-[240px]  p-[3px] text-black  border border-gray-200 lg:flex justify-between items-center'>
               <input type="text" placeholder='search Product...' className='text-[12px] outline-hidden p-2 ' />
@@ -84,6 +87,8 @@ export default function Header() {
         </div>
 
       </div>
+      </div>
+      {/* </div> */}
 
       {/* Header Bottom Start */}
 
