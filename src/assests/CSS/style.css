@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-rubik: "Rubik", sans-serif;
+  --breakpoint-large: 1000px;
+  --breakpoint-xs : 290px;
+  --breakpoint-sx:375px;
+  --breakpoint-lx:400px;
+
+}
+
+@layer base {
+
+
+
+  body {
+    /* background: #000; */
+    font-family:
+      Helvetica Neue,
+      Helvetica,
+      Arial,
+      sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+
+    width: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-pagination-bullet {
+    background: #fff !important;
+    opacity: 1 !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #C09578 !important;
+  }
+
+  /* Change slick arrow color to black */
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  font-size: 30px;
+}
+
+  
+}
+
+@layer components {
+
+  /* In your CSS or Tailwind layer */
+  .drop-down {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    transform: perspective(1000px) rotateX(-90deg);
+    transform-origin: top;
+    transition: transform 0.7s ease-in-out;
+    pointer-events: none;
+    opacity: 0;
+   
+  }
+
+  .group:hover .drop-down {
+    transform: perspective(1000px) rotateX(0deg);
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  
+
+}
