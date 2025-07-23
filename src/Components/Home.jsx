@@ -154,23 +154,23 @@ export default function Home() {
 
                         <div className=" w-[80%]  ">
                               <div className="grid grid-cols-1 md:grid-cols-3 ">
-                                    <div className="flex flex-col items-center gap-3 py-5 ">
-                                          <div className="w-[60px] h-[60px] flex justify-center items-center border-2 border-black rounded-full ">
-                                                <FaGlobeAmericas className='text-2xl text-[#5A5A5A]' />
+                                    <div className="flex flex-col items-center gap-3 py-5 group ">
+                                          <div className="w-[60px] h-[60px] flex justify-center items-center border-2 border-black group-hover:border-[#c09578] rounded-full ">
+                                                <FaGlobeAmericas className='text-2xl text-[#5A5A5A] group-hover:text-[#c09578]' />
                                           </div>
                                           <span className='text-[17px] text-[#242424] font-[700]  '>Free Shipping</span>
                                           <span className='text-[15px] text-[#5A5A5A] ' >Free Shipping On all Order</span>
                                     </div>
-                                     <div className="flex flex-col items-center gap-3 py-5 ">
-                                          <div className="w-[60px] h-[60px] flex justify-center items-center border-2 border-black rounded-full ">
-                                                <LuCircleCheckBig className='text-2xl text-[#5A5A5A]' />
+                                     <div className="flex flex-col items-center gap-3 py-5 group">
+                                          <div className="w-[60px] h-[60px] flex justify-center items-center border-2 border-black group-hover:border-[#c09578] rounded-full ">
+                                                <LuCircleCheckBig className='text-2xl text-[#5A5A5A] group-hover:text-[#c09578]' />
                                           </div>
                                           <span className='text-[17px] text-[#242424] font-[700]  '>Free Shipping</span>
                                           <span className='text-[15px] text-[#5A5A5A] ' >Free Shipping On all Order</span>
                                     </div>
-                                     <div className="flex flex-col items-center gap-3 py-5 ">
-                                          <div className="w-[60px] h-[60px] flex justify-center items-center border-2 border-black rounded-full ">
-                                                <GoClock  className='text-2xl text-[#5A5A5A]  ' />
+                                     <div className="flex flex-col items-center gap-3 py-5 group ">
+                                          <div className="w-[60px] h-[60px] flex justify-center items-center border-2 border-black group-hover:border-[#c09578] rounded-full ">
+                                                <GoClock  className='text-2xl text-[#5A5A5A]  group-hover:text-[#c09578] ' />
                                           </div>
                                           <span className='text-[17px] text-[#242424] font-[700]  '>Free Shipping</span>
                                           <span className='text-[15px] text-[#5A5A5A] ' >Free Shipping On all Order</span>

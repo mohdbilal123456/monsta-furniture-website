@@ -64,7 +64,7 @@ const SlickSliderProduct = () => {
                                     <h2 className="text-xl sm:text-2xl text-black font-bold whitespace-nowrap mr-4">
                                           Bestselling Products
                                     </h2>
-                                    <div className="xl:w-[76%] lg:w-[60%] md:w-[50%] sm:w-[44%] xs:w-[10%] sx:w-[19%] lx:w-[29%] h-[1px] bg-gray-300" />
+                                    <div className="xl:w-[76%] lg:w-[60%] md:w-[50%] sm:w-[44%] xs:w-[9%] sx:w-[19%] lx:w-[29%] h-[1px] bg-gray-300" />
                               </div>
 
 
